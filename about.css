@@ -1,0 +1,144 @@
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.navbar-content .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 9999px;
+}
+.navbar-content {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.navItem {
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.nav-btn {
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  height: fit-content;
+  border: none;
+  color: rgb(31, 30, 30);
+}
+.btn {
+  background-color: rgb(217, 27, 27);
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  height: fit-content;
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.nav-btn a {
+  text-decoration: none;
+  color: black;
+}
+.section1 {
+  background-color: rgb(155, 152, 152);
+  height: 100vh;
+  overflow-y: scroll;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  padding: 20px;
+}
+.FC1 {
+  width: 70%;
+  background-color: white;
+  padding: 10px;
+}
+.FC2 {
+  width: 30%;
+  background-color: rgb(201, 15, 15);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FC2 p {
+  text-align: center;
+}
+.button {
+  background-color: rgb(52, 50, 50);
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.header1 {
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0px;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 9999px;
+}
+.header {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "staatliches", cursive;
+}
+.footer-content input[type="submit"] {
+  width: 90%;
+}
+.footer-content input[type="email"] {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+.content form {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.footer {
+  background-color: rgb(57, 54, 54);
+  padding: 20px;
+}
+.footer p {
+  color: #ffffff90;
+  font-family: "Red Hat Display", sans-serif;
+}
+.footer ul {
+  color: white;
+  list-style: none;
+}
+.footer li {
+  padding: 10px 15px;
+  border-bottom: 1px dashed #ffffff60;
+}
+
+.content .btn {
+  color: white;
+}
